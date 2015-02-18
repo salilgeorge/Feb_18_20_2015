@@ -1,0 +1,120 @@
+= Angular JS
+
+[abstract]
+Prabhu Sunderaraman +
+Email: prabhu@durasoftindia.com +
+Blog: http://healthycoder.in +
+Books: Practical Ext JS 4, Spring 3.0 Black Book +
+Editor: http://healthycodemagazine.com +
+
+
+== Modus Operandi
+
+* Zero-PowerPoint Presentation
+* Learn basic concepts by writing code
+* Learn advanced concepts by writing code
+* Experiment new stuff by writing code
+
+== Topics.todo
+
+=== I
+
+*	Single Page Apps
+*	Scope of Angular JS
+*	Features of Angular JS application
+*	MVC/MVVM patterns
+*	Setting up
+*	A Sample application
+
+=== II
+
+*	Function hoisting
+*	arguments keyword
+*	Callback functions
+*	Returning functions
+*	Function properties
+*	Instantiating functions
+*	Classes and Objects
+*	this keyword
+*	Closures
+*	JSON
+*	Memory Leaks; Patterns
+*	Profiling and Debugging
+
+=== III
+
+*	Angular JS Architecture
+*	Modules
+*	Controllers
+*	Templates
+*	Views
+*	Services
+*	Directives
+*	Routing
+
+
+=== IV
+
+*	Modules
+*	Organizing files and folders
+*	Asynchronous loading
+*	Controller basics
+*	Binding a Model
+*	ngModelController
+*	Expressions
+*	Two-way binding
+
+
+=== V
+
+*	Forms
+*	Validation
+*	DOM manipulations
+*	Templates
+*	ngBind directive
+*	ngRepeat directive
+*	Handling events
+*	Creating Filters
+*	Built-in and Custom filters
+*	Accessing jQuery 
+
+
+=== VI
+
+
+*	Built-in services
+*	$http, $q
+*	$anchorScroll
+*	$compile, $parse
+*	$locale
+*	$timeout
+*	$filter
+*	Custom Services
+*	Routing
+
+
+=== VII
+
+*	Defining routes
+*	$route, $location
+*	Route roles 
+*	Route parameters
+*	History API in HTML 5
+
+
+=== VIII
+
+*	Directives- basics
+*	Directive lifecycle
+*	Custom directive
+*	Directive scope
+*	Transclusion
+*	Directive controllers
+*	Directives Compilation
+
+=== IX
+		
+*	Unit testing using Jasmine
+*	Build Angular JS applications
+*	Organizing files and folders
+*	Grunt

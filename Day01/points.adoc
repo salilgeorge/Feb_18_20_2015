@@ -1,0 +1,6 @@
+= Day 01 notes
+
+*  ng-app, ng-model ... etc
+*  We'll call them *directives*
+*  pair of curly braces {{...}}
+*  Let's call them templating expressions 

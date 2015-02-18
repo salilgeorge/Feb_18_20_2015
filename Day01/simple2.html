@@ -1,0 +1,21 @@
+<html ng-app="CBE">
+	<head>
+		<script src="angular.min.js"></script>
+		<script>
+		var cbe = angular.module("CBE",[]);
+		cbe.controller("PayodaController",function($scope){
+			$scope.doSomething = function(){
+				var name = $scope.myname;
+				$scope.message = "Hi " + name + " !!!";
+			}
+		});
+		</script>
+	</head>	
+	<body ng-controller="PayodaController">
+		<input type="text" placeholder="Name"
+		ng-model="myname"><br/>
+		<input type="button" 
+			value="Click" ng-click="doSomething()">
+		<h1>{{message}}</h1>
+	</body>	
+</html>

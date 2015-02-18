@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script>
+		function print(){
+			var name = document.getElementById("name").value;
+			var message = "Hello " + name;
+			document.getElementById("message").innerHTML = message;
+		}
+		</script>
+	</head>
+	<body>
+		Name<input type="text" id="name" onkeyup="print();">
+		<h1 id="message"></h1>
+	</body>		
+</html>

@@ -4,3 +4,20 @@
 *  We'll call them *directives*
 *  pair of curly braces {{...}}
 *  Let's call them templating expressions 
+
+*  Structure of an AngJS application
+*  It's a collection of modules
+*  Each module is a collection of controllers
+*  Define a module _angular.module("modulename",[])_
+*  Create an instance of the module _ng-app="modulename"_
+
+*  Define a controller _modulename.controller("cname",...)_
+*  Create an instance using _ng-controller="cname"_
+
+
+
+
+
+
+
+

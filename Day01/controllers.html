@@ -1,0 +1,38 @@
+<html ng-app="MyModule">
+	<head>
+		<script src="angular.min.js"></script>
+		<script>
+		var myMod = angular.module("MyModule",[]);
+		myMod.controller("MyCtrl1",function($scope){
+			console.log("MyCtrl1 created");
+		});
+		myMod.controller("MyCtrl2",function($scope){
+			console.log("MyCtrl2 created");
+		});
+		</script>
+	</head>	
+	<body>
+		<div ng-controller="MyCtrl1">
+			<input type="text" ng-model="name">
+			<h1>{{name}}</h1>
+		</div>	
+		<div ng-controller="MyCtrl1">
+			<input type="text" ng-model="name">
+			<h1>{{name}}</h1>
+		</div>
+
+
+
+		
+		<div ng-controller="MyCtrl2">
+		</div>	
+		
+		
+		<div ng-controller="MyCtrl2">
+		</div>
+		
+		
+		
+		
+	</body>	
+</html>

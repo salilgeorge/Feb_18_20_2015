@@ -1,0 +1,30 @@
+<html ng-app="MyModule">
+	<head>
+		<script src="angular.min.js"></script>
+		<script>
+		var myMod = angular.module("MyModule",[]);
+		myMod.controller("MyCtrl1",function($scope){
+			$scope.message1 = "This is message1";
+			$scope.message2 = "This is message2";
+			$scope.play = function(){
+				$scope.message1 = "Changed message1";
+				$scope.message2 = "Changed message2";
+			}
+		});
+		</script>
+	</head>	
+	<body>
+		<div ng-controller="MyCtrl1">
+			<h1>{{message1}}</h1>
+			<h1>{{message2}}</h1>
+			<input type="button" value="Click" ng-click="play();">
+		</div>		
+		<hr/>
+		<div ng-controller="MyCtrl1">
+			<h1>{{message1}}</h1>
+			<h1>{{message2}}</h1>
+			<input type="button" value="Click" ng-click="play();">
+		</div>
+		
+	</body>	
+</html>
